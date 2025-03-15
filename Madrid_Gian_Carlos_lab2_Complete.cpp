@@ -138,6 +138,7 @@ int main()
     traverse(head);
     head = insertAtEnd("Ma Meilleure Ennemie by Arcane,Stromae,Pomme", head);
     traverse(head);
+
     head = instertAtBeginning ("Your Color by HOYO-MiX", head);
     traverse(head);
     head = instertAtBeginning ("Color Your NIght by Chewie Melodies,Pealeaf", head);
@@ -146,6 +147,7 @@ int main()
     traverse(head);
     head = instertAtBeginning ("If I Can Stop One Heart From Breaking by Robin,HOYO-MiX,Chevy", head);
     traverse(head);
+    
     insertAfter ("Color Your NIght by Chewie Melodies,Pealeaf","Bakit by Maki", head);
     traverse(head);
     insertAfter ("Sunflower by Post Malone,Swae Lee","Misteryoso by Cup of joe", head);
